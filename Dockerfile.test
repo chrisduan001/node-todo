@@ -1,2 +1,0 @@
-FROM mindaro/sshd-git
-COPY app/ .
