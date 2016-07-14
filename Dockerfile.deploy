@@ -1,0 +1,4 @@
+FROM mindaro/dcos-cli
+
+RUN dcos config set core.dcos_url http://leader.mesos
+CMD ["marathon", "app", "list"]
